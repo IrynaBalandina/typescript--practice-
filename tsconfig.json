@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+    "module": "ESNext", // Use ES module system (suitable for modern browsers and tooling).
+    "lib": ["DOM", "ESNext", "DOM.Iterable"], // Specify library files to be included in the compilation.
+    "esModuleInterop": true, // Enables compilation away from module statements that aren't ECMAScript-compliant.
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
